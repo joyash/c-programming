@@ -3,7 +3,7 @@ and height.  */
 
 #include <stdio.h> // start program
 int area_calculator(int t_width, int t_height){   // initialize function to calculate area 
-    int area = t_width * t_height;   // calculate area 
+    int area = (t_width * t_height) * 1 / 2;   // calculate area 
     return area;
 } 
 
