@@ -6,7 +6,7 @@ input array.　The array type is int, and array size is 100. The elements of arr
  #include <stdlib.h>
  #include <time.h>
 #define MAX_SIZE 100   // initiate maximum size of array
-int minus_counter(int *random_array){       //define a calculator to find average 
+int minus_counter(int *random_array){       //define a calculator to find size of minus number 
     int counter = 0;       // initialize a variable for get total negative number in array
     for(int i = 0; i < MAX_SIZE; i++){      // initiate  for loop to go through array
         if(random_array[i] < 0) {  // compare array elements and if negative numbers found
