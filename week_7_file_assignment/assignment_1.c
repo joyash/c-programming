@@ -5,24 +5,20 @@
 
  #include <stdio.h>
 
- int main(){
-    int arra[5];
-    for(int i = 0; i < 5; i++){
-        printf("Enter a number: ");
-        scanf("%d", &arra[i]);
+ int main(){        // start main  program
+    int arra[5];        // initialize array to store value
+    for(int i = 0; i < 5; i++){         // for loop to get 5 value from user
+        printf("Enter a number: ");     //ask user to input
+        scanf("%d", &arra[i]);      //assign those input in variable
 
     }
-    FILE *file = fopen("ass1.csv", "w");
-    for(int i = 0; i < 5; i++){
-        fprintf(file, "%d", arra[i]);
-        if(i < 5){
-            fprintf(file, ",");
+    FILE *file = fopen("ass1.csv", "w");        //initialize to write on file
+    for(int i = 0; i < 5; i++){     //for loop to write value in file
+        fprintf(file, "%d", arra[i]);       // write value in file
+        if(i < 5){              
+            fprintf(file, ","); // put commas after each value
         }
     }fclose(file);
     
-
-
-
-
     return 0;
  }
