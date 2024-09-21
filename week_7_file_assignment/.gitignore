@@ -1,1 +1,10 @@
 *.exe
+# Ignore VS Code settings
+*.vscode/
+
+# Ignore all .exe files
+*.exe
+
+# Ignore any specific files or directories
+
+../week2_assignment/new_class_exercise/
