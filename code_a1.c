@@ -9,8 +9,7 @@ When selections of NPC and a user is same, no winner and no loser.*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//hello re
-//this is 
+ 
 int main(){
     int human_player;       // variable for save choice
     int cpu_player;
