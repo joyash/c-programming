@@ -44,11 +44,7 @@ int check_user(){
         printf("Incorrect password!\n");
         return -1;
     }
-
-
-
 }
-
 
 int main(){
     char new_user_first_name[10];
@@ -75,9 +71,7 @@ int main(){
         printf("Your initial balance: ");
         scanf("%f", &initial_balance);
         create_user(new_user_first_name, new_user_last_name, user_password, initial_balance);
-
-
-        
+  
     }
     else if(check_in == 2){
         check_user();
