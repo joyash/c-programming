@@ -4,7 +4,7 @@ that is, output_y[i] = sin(input_x[i]) + 0.1*input_x[i]. After that, save it and
 
  #include <stdio.h>
  #include <math.h>
- #define MAX_SIZE 10
+ #define MAX_SIZE 1000
  // User-defined function for making CSV
 // Input: File name, array data
 // Result: Save file
